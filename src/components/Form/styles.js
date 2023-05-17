@@ -61,4 +61,6 @@ color:white;
 background: linear-gradient(to bottom, #2980b9, #6ab2e8);
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 
+@media (max-width: 750px) {
+padding:15px;
 `

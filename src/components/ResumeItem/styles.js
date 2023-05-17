@@ -6,17 +6,16 @@ flex-direction:column;
 align-items: center;
 background-color:#fff;
 border-radius:5px;
-padding:5 px 15px;
+padding:5px 15px;
 height:100%;
 width: 30%;
-border-bottom:none;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(0, 0, 0, 0);
 
-
 @media (max-width: 750px) {
-width:30%;
+width:29vw;
+padding:0;
+margin:0px;
 height:70%;
-
 
 `
 
@@ -28,13 +27,10 @@ width:100%;
 gap:10px;
 margin:20px auto;
 
-svg{
-
-    width:25px;
-    height:25px;
+svg {
+width:25px;
+height:25px;
 }
-
-
 
 `
 export const HeaderTitle = styled.p `
@@ -50,10 +46,13 @@ color:#000000;
 
 @media(max-width:750px) {
 width:30vw;
-white-space:nowrap;
 text-align:center;
-font-size:1.1rem;
+white-space:nowrap;
+font-size:1rem;
 
+}
+@media(max-width:350px) {
+font-size:0.8rem;
 }
 
 `
