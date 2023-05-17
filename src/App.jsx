@@ -48,7 +48,11 @@ const App = () => {
 
     <>
       <Header />
-      <Resume income={ income } expense={ expense } total={ total } />
+      <Resume
+        income={ income }
+        expense={ expense }
+        total={ total }
+      />
       <Form
         formatoReal={ formatoReal }
         handleAdd={ handleAdd }
